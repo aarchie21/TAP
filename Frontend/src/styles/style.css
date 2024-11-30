@@ -1,0 +1,17 @@
+/* Button Styling */
+.buy-now-btn,
+.category-btn {
+  background-color: #f01f80;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buy-now-btn:hover,
+.category-btn:hover,
+.buy-now-btn:focus,
+.category-btn:focus {
+  background-color: #ffffff;
+  color: #f01f80;
+  border: 1px solid #f01f80;
+}
